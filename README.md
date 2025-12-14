@@ -20,6 +20,9 @@ NSE Stock Price Prediction (1-Month Horizon)
     | Price Action  | High/Low Ratio, Gap Up/Down              | Custom ratios to capture intraday volatility and overnight sentiment.|
     | Volume        | Volume                                   | Confirms whether price moves are backed by trading activity.         |
 
+    | 
+
+
     The Target Variable (y)
     Goal: Predict percentage return 21 days into the future.
 
