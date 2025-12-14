@@ -15,12 +15,11 @@ NSE Stock Price Prediction (1-Month Horizon)
     | Category      | Indicators Used                          | Why?                                                                 |
     |---------------|------------------------------------------|----------------------------------------------------------------------|
     | Momentum      | RSI (14), Stochastic Oscillator          | Identifies overbought and oversold conditions.                       |
-    | Trend         | MACD, ADX, SMA_50                        | Captures the direction and strength of the current trend.            |
+    | Trend         | MACD, ADX, SMA_50, SMA_8, SMA_20         | Captures the direction and strength of the current trend.            |
     | Volatility    | ATR (Average True Range)                 | Measures market “fear” or candle size regardless of direction.       |
     | Price Action  | High/Low Ratio, Gap Up/Down              | Custom ratios to capture intraday volatility and overnight sentiment.|
     | Volume        | Volume                                   | Confirms whether price moves are backed by trading activity.         |
-
-    | 
+    | Market Index  | NIFTY50                                  | Provides broader market context and benchmark trend confirmation     |  
 
 
     The Target Variable (y)
